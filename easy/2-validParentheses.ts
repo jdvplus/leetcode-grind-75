@@ -54,7 +54,7 @@ interface BracketDict {
   '[': string;
 }
 
-const isValidOptimized = (s: string): boolean => {
+const isValidTSOptimized = (s: string): boolean => {
   const brackets: BracketDict = {
     '(': ')',
     '{': '}',
