@@ -37,7 +37,7 @@ const mergeTwoListsTS = (
   list2: ListNode | null
 ): ListNode | null => {
   let res: ListNode = new ListNode();
-  let pointer: ListNode = res;
+  const pointer: ListNode = res;
 
   while (list1 && list2) {
     if (list1.val <= list2.val) {

@@ -24,7 +24,7 @@ Output: [0]
 
 const mergeTwoListsJS = (list1, list2) => {
   let res = new ListNode();
-  let pointer = res;
+  const pointer = res;
 
   while (list1 && list2) {
     if (list1.val <= list2.val) {
