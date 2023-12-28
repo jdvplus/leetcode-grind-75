@@ -22,6 +22,8 @@ Output: 2
 
 */
 
+import { TreeNode } from './types';
+
 const lowestCommonAncestorTS = (
   root: TreeNode | null,
   p: TreeNode,
